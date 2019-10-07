@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello NodeApp -  welcome to the CI/CD !! \n");
+  response.end("Hello NodeApp -  welcome to my demo !! \n");
 });
 
 // listen on localhost:8000
